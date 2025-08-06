@@ -1,6 +1,6 @@
 import express from "express";
 
-import { protectedRoute } from "../middleware/auth.middleware";
+import { protectedRoute } from "../middleware/auth.middleware.js";
 import {
   createComment,
   getComments,

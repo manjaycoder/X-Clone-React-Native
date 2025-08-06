@@ -3,7 +3,7 @@ import { getAuth } from "@clerk/express";
 import Notification from "../models/notification.model.js";
 import User from "../models/user.model.js";
 
-export const getNotifications = asyncHandler(async (req, res) => {
+export const getNotification = asyncHandler(async (req, res) => {
   const { userId } = getAuth(req);
 
   const user = await User.findOne({ clerkId: userId });
