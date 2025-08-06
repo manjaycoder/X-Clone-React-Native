@@ -1,4 +1,4 @@
-import { aj } from "../config/arcjet";
+import { aj } from "../config/arcjet.js";
 
 // Arcjet middleware for rate limiting, not protection and security
 
